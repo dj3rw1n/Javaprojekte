@@ -4,6 +4,7 @@ public class Tanne
 {
     GLZylinder Stamm;
     GLKegel s1,s2,s3;
+    GLKugel k1,k2,k3,k4,k5,k6,k7,k8,k9,k10;
     
     
     
@@ -24,6 +25,8 @@ public class Tanne
         s3 = new GLKegel (pX, 350, pZ,150,150);
         s3.setzeTextur ("grün.jpg");
         s3.drehe (90,0,0);
+        
+        
         
     }
 

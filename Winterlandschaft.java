@@ -1,6 +1,6 @@
 import GLOOP.*;
 public class Winterlandschaft extends Geschenk {
-    private GLKamera kamera;
+    private GLEntwicklerkamera kamera;
     private GLLicht  licht;  
     private GLHimmel himmel;
     private GLBoden  boden;
@@ -9,7 +9,7 @@ public class Winterlandschaft extends Geschenk {
 
 
     public Winterlandschaft(){
-        kamera = new GLSchwenkkamera(800,600);
+        kamera = new GLEntwicklerkamera(1920,1080);
         kamera.setzePosition(-600,400,800);
         licht  = new GLLicht();  
         boden  = new GLBoden("Schnee.jpg");
